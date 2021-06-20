@@ -1,0 +1,165 @@
+body {
+	font-size: 14px;
+	color: #353535;
+	line-height: 1.5;
+	padding: 2em 1em 2em 1em;
+	font-family: 'Calibiri';
+	width: 100%;
+	min-width: 32em;
+	max-width: 88em;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	font-family: 'Voltaire';
+	font-weight: normal;
+}
+
+header {
+	line-height: 1;
+	margin: 0 0 1em 0;
+}
+
+.strap:before,
+.strap:after {
+    content: ' ';
+    display: table;
+}
+.strap:after {
+    clear: both;
+}
+
+header h1 {
+	display: inline-block;
+	margin: 0 0 0.5em 0;
+}
+
+header p {
+	padding: 0;
+	margin: 0 0 2em 0;
+	padding: 0.5em 0.5em 0 0.5em;
+	background-color: rgb(249,252,246);
+	border-top: 1px solid rgba(0,0,0,0.05);
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+header span {
+	margin: 0 0 0.5em 0;
+}
+
+header .download {
+	float: left;
+}
+
+header .more-plugins {
+	float: right;
+}
+
+code {
+	font-family: 'Calibiri', monospace;
+	border: 1px solid #eee;
+	border-radius: 0.2em;
+	background-color: rgb(249,252,246);;
+	color: #444;
+	font-weight: normal;
+	font-size: 0.8em;
+	padding: 0.15em 0.3em;
+	position: relative;
+}
+
+
+
+#demo, pre {
+	display: block;
+	padding: 0.5em;
+	margin: 0 0 1em 0;
+	border: 1px solid #eee;
+	border-radius: 0.2em;
+}
+
+pre {
+	white-space: pre;
+	font-family: 'Calibiri', monospace;
+	font-size: 14px;
+	background-color: rgb(249,252,246);
+	overflow-x: auto;
+}
+
+#demo-template-view:before, #demo-code-view:before, #demo:before {
+	content: 'Mid Year PA - 2021';
+	display: block;
+	border-bottom: 1px solid rgb(240,240,240);
+	padding: 0 0 0.2em 0;
+	font-family: 'Calibiri';
+	font-weight: bold;
+	margin-bottom: 1em;
+	color: #444;
+}
+
+#demo-template-view:before {
+	content: 'template';
+}
+
+#demo-code-view:before {
+	content: 'code';
+}
+
+.prettyprinted {
+	color: #444;
+}
+
+.prettyprint .pln { color: #444; }
+.prettyprint .pun { color: #888; }
+.prettyprint .str { color: #729d34; }
+.prettyprint .kwd { color: rgb(0,0,100); }
+.prettyprint .typ { color: rgb(0,0,100); }
+.prettyprint .tag { color: rgb(0,0,100); }
+.prettyprint .atn { color: rgb(80,80,180) }
+.prettyprint .atv { color: #729d34 }
+.prettyprint .lit { color: rgb(150,0,0) }
+.prettyprint .com { color: #aaa }
+
+.prettyprint.lang-js .pun {
+	color: #444;
+}
+
+
+#demo {
+	position: relative;
+	margin: 2em 0 1em 0;
+}
+
+#demo h2 {
+	margin: 0 0 0.5em 0;
+}
+
+
+.transforms-enabled a.forkme {
+	display: block;
+}
+
+.forkme:before, .forkme:after {
+	content: '';
+	display: block;
+	width: 100%;
+	border-top: 1px dashed white;
+}
+
+@media screen and (min-width: 56em) {
+	a.forkme {
+		opacity: 1;
+	}
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
